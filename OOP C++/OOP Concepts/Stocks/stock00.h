@@ -24,3 +24,5 @@ public:
 	void update(double price);
 	void show();
 };
+
+#endif

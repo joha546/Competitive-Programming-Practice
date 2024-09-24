@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "stock00.h"
 using namespace std;
 
@@ -42,11 +42,11 @@ void Stock::sell(long num, double price)
 {
 	cout;
 	if (num < 0) {
-		cout << "Number of shares sold can’t be negative. "
+		cout << "Number of shares sold canï¿½t be negative. "
 			<< "Transaction is aborted." << endl;
 	}
 	else if (num > shares) {
-		cout << "You can’t sell more than you have! "
+		cout << "You canï¿½t sell more than you have! "
 			<< "Transaction is aborted." << endl;
 	}
 	else {
